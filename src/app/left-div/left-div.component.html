@@ -1,0 +1,10 @@
+<div class="leftDivBackground">
+  <div *ngFor="let item of items; let i = index"
+    class="item"
+    [app-draggable]="true" 
+    [draggedClass]="'item-drag'"
+    [dragTag]="'div-item'" 
+    [dragData]="item">
+    {{item.value}}
+  </div>
+</div>

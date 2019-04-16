@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-6">
+    <app-left-div
+      [items]="list1">
+    </app-left-div>
+  </div>
+  <div class="col-6">
+    <app-right-div
+      [items]="list2"
+      (changeItem)="handleResult($event)">
+    </app-right-div>
+  </div>
+</div>

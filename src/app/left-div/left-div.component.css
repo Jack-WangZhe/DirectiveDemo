@@ -1,0 +1,17 @@
+.leftDivBackground {
+    background: #aaaaaa;
+    height: 100vh;
+    width: 100%;
+}
+
+.item {
+    margin: 5px;
+    background: #99cc99;
+    height: 50px;
+    text-align: center;
+}
+
+.item-drag {
+    border: coral dashed 3px;
+    opacity: 0.5;
+}

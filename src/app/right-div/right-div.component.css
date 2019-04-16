@@ -1,0 +1,16 @@
+.rightDivBackground {
+    background: #3b3b99;
+    height: 100vh;
+    width: 100%;
+}
+
+.item {
+    margin: 5px;
+    background: #99cc99;
+    height: 50px;
+    text-align: center;
+}
+
+.drag-enter {
+    background-color: dimgray;
+}

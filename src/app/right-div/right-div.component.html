@@ -1,0 +1,12 @@
+<div class="rightDivBackground" 
+  app-droppable 
+  [dropTags]="['div-item','div-list']"
+  [dragEnterClass]="'drag-enter'"
+  [app-draggable]="true"
+  [dragTag]="'div-list'"
+  [draggedClass]="'drag-start'"
+  [dragData]="items"
+  (dropped)="handleMove($event)"
+  >
+  <div *ngFor="let item of items; let i = index" class="item">{{item.value}}</div>
+</div>
